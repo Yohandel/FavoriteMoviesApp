@@ -21,6 +21,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.graphics.Color
 import com.cuevas.favoritemoviesapp.data.PeliculasRepo
 import com.cuevas.favoritemoviesapp.ui.components.PeliculaCard
 
@@ -41,8 +42,13 @@ fun ListaScreen(
             TopAppBar(title = { Text("Lista de Películas") })
         },
         floatingActionButton = {
-            FloatingActionButton(onClick = onAgregarClick) {
-                Icon(Icons.Filled.Add, contentDescription = "Agregar película")
+            FloatingActionButton(onClick = onAgregarClick, containerColor = Color(61, 133, 85)) {
+                Icon(
+                    Icons.Filled.Add,
+                    contentDescription = "Agregar película",
+                    tint = Color.White
+                )
+
             }
         }
     ) { padding ->
