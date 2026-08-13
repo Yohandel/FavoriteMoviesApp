@@ -31,7 +31,7 @@ fun InicioScreen(onVerListaClick: () -> Unit) {
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "Bienvenido 🎬",
+                text = "Bienvenido a My Favorite Movies🎬",
                 style = MaterialTheme.typography.headlineMedium
             )
             Text(
@@ -40,7 +40,7 @@ fun InicioScreen(onVerListaClick: () -> Unit) {
                 modifier = Modifier.padding(top = 8.dp, bottom = 24.dp)
             )
             Button(onClick = onVerListaClick) {
-                Text("Ver mis películas")
+                Text("Ver mi lista de peliculas películas")
             }
         }
     }
