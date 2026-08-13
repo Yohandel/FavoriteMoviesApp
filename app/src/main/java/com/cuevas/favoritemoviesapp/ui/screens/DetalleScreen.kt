@@ -87,7 +87,8 @@ fun DetalleScreen(
             ) {
                 OutlinedButton(
                     onClick = onEditarClick,
-                    modifier = Modifier.weight(1f)
+                    modifier = Modifier.weight(1f),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFB7A538), contentColor = Color.White)
                 ) {
                     Text("Editar")
                 }
@@ -96,7 +97,7 @@ fun DetalleScreen(
                         PeliculasRepo.eliminar(pelicula.id)
                         onEliminarClick()
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFB3261E)),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFB3261E), contentColor = Color.White),
                     modifier = Modifier.weight(1f)
                 ) {
                     Text("Eliminar")
