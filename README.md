@@ -54,4 +54,12 @@ ListaScreen ◄─────────────────────�
 | Eliminar | DetalleScreen | Botón "Eliminar" quita la película del listado y regresa a la lista |
 
 ## 7. Capturas de pantalla
-[Se agregarán al finalizar el desarrollo]
+<img width="610" height="1289" alt="image" src="https://github.com/user-attachments/assets/3f5b6084-bfd2-4a23-bd50-026a30426366" />
+<img width="610" height="1294" alt="image" src="https://github.com/user-attachments/assets/f85cb7d1-6961-4d0f-be74-b35b515e9fb1" />
+<img width="610" height="1287" alt="image" src="https://github.com/user-attachments/assets/97897847-e99b-46a0-9353-4d2719b5060c" />
+<img width="604" height="1280" alt="image" src="https://github.com/user-attachments/assets/f51fb6e2-1e4a-4ee6-9421-edc0b4002f18" />
+<img width="1220" height="2573" alt="image" src="https://github.com/user-attachments/assets/a3f9ccee-977c-429a-897d-e16ba7ffa50e" />
+
+
+
+
